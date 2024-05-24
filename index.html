@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senha</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+   <div id="register-container">
+    <div id="register-banner">
+        <div id="banner-layer">
+            <h1>Seja Bem-vindo</h1>
+        </div>
+    </div>
+    <div id="register-form">
+        <h2>Crie sua conta:</h2>
+        <p>Registre-se para utilizar todas as funcionalidades do sistemas</p>
+        <div class="form-control">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" autocomplete="off">
+        </div>
+        <div class="form-control">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off">
+        </div>
+        <div class="form-control">
+            <label for="password">senha:</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+        </div>
+            <p>Quer ajuda para criar uma senha segura ?
+                <span id="generate-password">Clique aqui.</span>
+            </p>
+            <div id="generated-password">
+                <p>Aqui está a sua senha:</p>
+                <h4></h4>
+            </div>
+        <div class="form-control">
+            <label for="configpassowrd">Confirmação de senha:</label>
+            <input type="password" name="configpassowrd" id="configpassowrd" placeholder="Confirme sua senha">
+        </div>
+        <input type="submit" value="Cadastrar">
+    </div>
+   </div>
+</body>
+</html>
